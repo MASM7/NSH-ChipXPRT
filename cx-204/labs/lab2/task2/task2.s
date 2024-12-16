@@ -12,8 +12,8 @@
 #addi a0, x0, 1
 #ecall
 
-li x5, 3
-addi x10, x5, 0x
-add a1, x0, x5
-addi a0, x0, 1
-ecall
+#li x5, 3
+#addi x10, x5, 0x00001111
+#add a1, x0, x5
+#addi a0, x0, 1
+#ecall
